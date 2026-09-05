@@ -70,7 +70,7 @@ function initMenuFilters() {
 
 // Point this at wherever the backend from /dastarkhwan-backend is deployed.
 // Same-origin deployments (backend serving the frontend too) can use a relative '/api/reservations'.
-const RESERVATION_API_URL = 'http://localhost:4000/api/reservations';
+ const RESERVATION_API_URL = 'https://dmambuvhtfyacrpvjnmy.supabase.co/functions/v1/reservations';
 
 function initReservationForm() {
   const form = document.getElementById('reserveForm');
@@ -153,7 +153,7 @@ function initReservationForm() {
       guests: Number(form.elements.guests.value),
       date: form.elements.date.value,
       time: form.elements.time.value,
-      request: form.elements.request.value.trim(),
+     specialRequest: form.elements.request.value.trim(),
     };
 
     if (submitBtn) {
