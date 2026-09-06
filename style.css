@@ -48,7 +48,7 @@ h1, h2, h3 {
   margin: 0 0 0.5em;
 }
 
-p { margin: 0 0 1em; color: var(--color-muted); max-width: 62ch; }
+p { margin: 0 0em; color: var(--color-muted); max-width: 62ch; }
 
 section { padding: var(--section-pad) 1.5rem; }
 
