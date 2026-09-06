@@ -1,6 +1,6 @@
 
 :root {
-  /* Colors */
+  
   --color-bg: #FAF7F1;
   --color-bg-alt: #F2EBDD;
   --color-red: #9E1B32;
@@ -11,11 +11,10 @@
   --color-line: #E3D9C6;
   --color-white: #FFFFFF;
 
-  /* Type */
   --font-display: 'Fraunces', serif;
   --font-body: 'Karla', sans-serif;
 
-  /* Layout */
+ 
   --max-width: 1180px;
   --section-pad: 6.5rem;
   --radius: 3px;
