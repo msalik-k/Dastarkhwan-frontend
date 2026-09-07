@@ -400,6 +400,7 @@ section { padding: var(--section-pad) 1.5rem; }
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 190px;
   gap: 0.9rem;
+  background-color: #DCD5CB;
 }
 
 .gallery-grid img {
