@@ -440,7 +440,7 @@ section { padding: var(--section-pad) 1.5rem; }
 .testimonial cite {
   font-style: normal;
   font-size: 0.85rem;
-  color: var(--color-muted);
+  color: var(--color-red-dark);
   font-weight: 600;
 }
 
@@ -453,7 +453,7 @@ section { padding: var(--section-pad) 1.5rem; }
   gap: 3.5rem;
 }
 
-.reserve-text { align-self: start; position: sticky; top: 7rem; }
+.reserve-text { align-self: start; position: sticky; top: 6rem; }
 
 .form-row {
   display: grid;
